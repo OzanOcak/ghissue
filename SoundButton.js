@@ -10,7 +10,7 @@ export default function SoundButton() {
   async function trueSound() {
     console.log("Loading Sound");
     const { sound } = await Audio.Sound.createAsync(
-      require(`./assets/right.mp3`)
+      require(`./assets/right2.mp3`)
     );
     setSound(sound);
 
@@ -21,7 +21,7 @@ export default function SoundButton() {
   async function falseSound() {
     console.log("Loading Sound");
     const { sound } = await Audio.Sound.createAsync(
-      require(`./assets/wrong.mp3`)
+      require(`./assets/wrong2.mp3`)
     );
     setSound(sound);
 
